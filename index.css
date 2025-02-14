@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+    
+}
+.nav-bar{
+    background-color: black;
+    height: 70px;
+    color: white;
+    display:flex ;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo\ \(3\).png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.nav-address{
+    align-items: center;
+    justify-content: center;
+
+}
+.second{
+    display: flex;
+    color: whitesmoke;
+    font-size: large;
+}
+.third{
+    color: white;
+}
+.nav-search{
+    background-color:black;
+    width:620px;
+    height:40px;
+    display: flex;
+
+}
+.border{
+    border:2px solid transparent
+}
+.border:hover{
+    border:2px solid white
+}
+.selection{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    text-align: center;
+    width: 60px;
+    border: none;
+    font-size: 15px;
+    color: black;
+
+}
+.nav-search :hover{
+    border:2px solid orange
+}
+.search-box{
+    width: 500px;
+    border: none;
+
+}
+.search-icon{
+   color: black;
+   background-color: orange;
+   width: 56px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius:4px ;
+
+
+
+}
+.span{
+    font-size: 0.6rem;
+}
+.nav-acc{
+    font-weight: 700;
+}
+.sel{
+    display: flex;
+}
+.span{
+    font-size: 0.6rem;
+
+}
+.revi{
+    font-weight: 700;
+}
+.cart i{
+    font-size: 35px;
+}
+.cart{
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    background-color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke
+    
+
+}
+.option p{
+    display: inline;
+    margin-left: 15px;
+
+}
+.option{
+    width:70%;
+    font-size: 0.85rem;
+}
+.panel-oops{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+.hero-section{
+    background-image:url("hero_image\ \(2\).jpg");
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.hero-msg {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    display:flex ;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+.shopping-section{
+    display:flex ;
+    justify-content: space-evenly;
+    background-color: #e2e2e2;
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+    margin-top: 1rem;
+
+
+}
+.head{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.boxa{
+    margin-left: 1rem;
+    height: 300px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    background-size:cover ;
+    
+}
+.more{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #007185;
+    text-decoration: underline;
+}
+.head2{
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.boxb{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.more2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #007185;
+    text-decoration: underline;
+
+}
+.head3{
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.boxc{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.more3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #007185;
+    text-decoration: underline;
+
+}
+.head4{
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.boxd{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.more4{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #007185;
+    text-decoration: underline;
+
+}
+.vehicle{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #e2e2e2;
+    
+
+
+}
+.b{
+    height: 400px;
+    width: 23%;
+
+}
+.headv1{
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.boxv1{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.morev1{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #007185;
+    text-decoration:underline;
+  
+}
+.headv2{
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.boxvb{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.morev2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #007185;
+    text-decoration:underline;
+  
+}.headv3{
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.boxvc{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.morev3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #007185;
+    text-decoration:underline;
+  
+}.headv4{
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.boxvd{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.morev4{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #007185;
+    text-decoration:underline;
+  
+}
+.c{
+    background-color: white;
+}
+.z{
+    margin-top: 1rem;
+}
+footer{
+    height: 100px;
+}
+.footer-panel1{
+    margin-top: 1rem;
+    background-color: #007185;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    color: white;
+}
+.footer-panel2{
+    height: 250px;
+    background-color: #0f1111;
+    border-top: 0.85px solid white;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a{
+    display: block;
+    font-size: 1rem;
+
+}
+.footer-panel7{
+    height: 40px;
+    background-color: #0f1111;
+    color: white;
+    border-top: 1px solid rgb(15, 17, 17);
+ 
+
+}
+.footer-panel4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer-panel3{
+   height: 75px;
+   background-color: #0f1111;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+
+   
+}
+.footer-panel5{
+    display: flex;
+    justify-content: center;
+
+}
+.pic{
+    background-size: cover;
+    height: 100px;
+    width: 170px;
+}
+ ul p{
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+
